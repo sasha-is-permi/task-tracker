@@ -2,6 +2,8 @@
   // Подробнее об этом файле: https://aka.ms/tsconfig
   "compilerOptions": { // настройки компилятора TypeScript
     "module": "commonjs", // система модулей: CommonJS (require / module.exports)
+    "esModuleInterop": true, // разрешает import express from 'express'
+    "forceConsistentCasingInFileNames": true, // заставляет TypeScript проверять, что регистр букв в пути импорта совпадает с именем файла на диске.
     "target": "es2016", // в какую версию JavaScript компилировать код
     "rootDir": "./src", // корневая папка с исходными файлами TypeScript
     "outDir": "./dist", // папка для скомпилированных файлов

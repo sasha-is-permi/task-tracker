@@ -1,0 +1,30 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --watch src --ext ts --exec \"tsc && node dist/index.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sasha-is-permi/task-tracker.git"
+  },
+  "author": "A. G. Bashin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sasha-is-permi/task-tracker/issues"
+  },
+  "homepage": "https://github.com/sasha-is-permi/task-tracker#readme",
+  "dependencies": {
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2"
+  }
+}
